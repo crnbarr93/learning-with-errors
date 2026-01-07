@@ -1,4 +1,4 @@
-use lwe::{Params, decrypt, encrypt, keygen};
+use lwe::lwe::{Params, decrypt, encrypt, keygen};
 
 fn main() {
     println!("LWE Encryption Learning Exercise");
